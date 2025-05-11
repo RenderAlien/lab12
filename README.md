@@ -13,15 +13,3 @@
 ## Forms.vue
 
 Имеет форму отправки, при нажатии кнопки с помощью store.send() отправляет пост-запрос с данными формы в json формате на https://jsonplaceholder.typicode.com/posts. Выводит в консоль респонс.
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
