@@ -1,20 +1,18 @@
 # lab12
 
-This template should help get you started developing with Vue 3 in Vite.
+Лабораторная работа №12
 
-## Recommended IDE Setup
+## Home.vue
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Имеет общую информацию о работе
 
-## Customize configuration
+## Cats.vue
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+С помощью store.GetApiData() гет-запросом с https://api.thecatapi.com/v1/images/search получает ссылку на случайное изображение с котом и выводит его с помощью <img>
 
-## Project Setup
+## Forms.vue
 
-```sh
-npm install
-```
+Имеет форму отправки, при нажатии кнопки с помощью store.send() отправляет пост-запрос с данными формы в json формате на https://jsonplaceholder.typicode.com/posts. Выводит в консоль респонс.
 
 ### Compile and Hot-Reload for Development
 
