@@ -8,7 +8,7 @@
 
 ## Cats.vue
 
-С помощью store.GetApiData() гет-запросом с https://api.thecatapi.com/v1/images/search получает ссылку на случайное изображение с котом и выводит его с помощью <img>
+С помощью store.GetApiData() гет-запросом с https://api.thecatapi.com/v1/images/search получает ссылку на случайное изображение с котом и выводит его с помощью тега img
 
 ## Forms.vue
 
